@@ -1,16 +1,19 @@
 # money_share_project
 
-A new Flutter project.
+แอปพลิเคชัน "Money Share Project" เป็นแอปพลิเคชันที่ช่วยในการคำนวณการแบ่งเงินระหว่างกลุ่มคน โดยมีฟังก์ชันการทำงานหลักดังนี้:
 
-## Getting Started
+หน้าจอหลัก (Input Money Share UI):
 
-This project is a starting point for a Flutter application.
+ผู้ใช้สามารถป้อนจำนวนเงินที่ต้องการแบ่ง, จำนวนคนที่จะแบ่งเงิน, และจำนวนเงินทิป (ถ้ามี) ผ่านทางฟอร์มที่กำหนดไว้
+มีการตรวจสอบความถูกต้องของข้อมูลที่ป้อน เช่น ตรวจสอบว่าผู้ใช้ได้ป้อนจำนวนเงินและจำนวนคนครบถ้วน
+เมื่อผู้ใช้กดปุ่ม "คำนวณ" แอปจะทำการคำนวณจำนวนเงินที่แต่ละคนต้องจ่าย โดยรวมจำนวนเงินทิป (ถ้ามี) และแสดงผลลัพธ์ในหน้าจอถัดไป
+หน้าจอแสดงผลการแบ่งเงิน (Show Money Share UI):
 
-A few resources to get you started if this is your first Flutter project:
+หน้าจอนี้จะแสดงผลลัพธ์การคำนวณการแบ่งเงินที่ได้จากหน้าจอหลัก
+แสดงจำนวนเงินที่จะแบ่ง, จำนวนคนที่จะแบ่ง, จำนวนเงินทิป (ถ้ามี), และจำนวนเงินที่แต่ละคนต้องจ่าย
+ผู้ใช้สามารถกลับไปยังหน้าจอหลักเพื่อทำการคำนวณใหม่ได้
+แอปพลิเคชันนี้ถูกออกแบบมาให้ใช้งานง่ายและสะดวกสำหรับการคำนวณการแบ่งเงินในกลุ่มคน ไม่ว่าจะเป็นการแบ่งเงินค่าอาหาร, ค่าเดินทาง, หรือค่าใช้จ่ายอื่นๆ ที่ต้องการแบ่งกันในกลุ่มคนหลายคน
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/user-attachments/assets/1d739864-d195-4164-8a15-b8707ee283cb)
+![image](https://github.com/user-attachments/assets/3330cc2e-b1c1-4a1b-82f4-bc358310f387)
